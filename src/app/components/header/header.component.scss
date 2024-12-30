@@ -1,0 +1,28 @@
+ion-header {
+    --background: #292a48;
+    color: #ffffff;
+  }
+  
+  ion-toolbar {
+    --background: transparent;
+  }
+  
+  .wave-toolbar {
+    position: relative;
+    background-color: #292a48;
+    overflow: hidden;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      width: 200%;
+      height: 150%;
+      border-radius: 30px;
+      background: #373856;
+      transform: rotate(-7deg);
+      transform-origin: bottom left;
+      z-index: -1;
+    }
+  }

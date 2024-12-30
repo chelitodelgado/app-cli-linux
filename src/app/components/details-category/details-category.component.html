@@ -1,0 +1,35 @@
+<ion-content>
+
+  <ng-container *ngIf="commands; else elseTemplate">
+    <div data-aos="flip-up" *ngFor="let command of commands" class="p-4 bg-black text-white rounded-lg font-mono mb-4">
+      <div class="flex justify-between items-center">
+        <div class="flex space-x-2 text-red-500">
+          <div class="w-3 h-3 rounded-full bg-red-500"></div>
+          <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+          <div class="w-3 h-3 rounded-full bg-green-500"></div>
+        </div>
+        <p class="text-sm">Ejemplo</p>
+      </div>
+      <div class="mt-4">
+        <ng-container *ngIf="!loading; else elseTemplate">
+          <div class="text-sm text-green-400">
+            <div>
+              <span class="mr-2">Cargando</span>
+              <span class="animate-[ping_1.5s_0.5s_ease-in-out_infinite]">.</span>
+              <span class="animate-[ping_1.5s_0.7s_ease-in-out_infinite]">.</span>
+              <span class="animate-[ping_1.5s_0.9s_ease-in-out_infinite]">.</span>
+            </div>
+          </div>
+        </ng-container>
+        <ng-template #elseTemplate>
+          <p class="text-sm">{{ command.description }}</p>
+          <p class="text-green-400">$ {{ command.name }}</p>
+        </ng-template>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #elseTemplate>
+    <p class="text-white">No se encontraron resultados</p>
+  </ng-template>
+
+</ion-content>

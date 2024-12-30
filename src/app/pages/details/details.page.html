@@ -1,0 +1,11 @@
+<ion-header collapse="condense">
+  <ion-toolbar class="wave-toolbar">
+    <div class="w-auto p-9 text-white space-y-3 relative overflow-hidden">
+      <h1 class="font-bold text-xl">{{ title }}</h1>
+      <p class="text-sm text-zinc-300 leading-6">{{ description }}</p>
+    </div>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <app-details-category [commandsByCategory]="commandsByCategory"></app-details-category>
+</ion-content>

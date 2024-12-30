@@ -1,0 +1,3513 @@
+{
+	"data": [
+		{
+			"uuid": "01b1feaf-19b1-4780-a647-9c545d305d07",
+			"name": "apt-get install package_name",
+			"description": "Instalar / actualizar un paquete deb.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "1aca0b9b-3fa4-4f6b-b563-5dbd572b42f9",
+			"name": "apt-cdrom install package_name",
+			"description": "Instalar / actualizar un paquete deb desde un cdrom.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "068d9317-0519-458b-a446-87f5f0fd5a40",
+			"name": "apt-get update",
+			"description": "Actualizar la lista de paquetes.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "d29ea86c-8160-4434-a5f7-47dad63b1bcd",
+			"name": "apt-get upgrade",
+			"description": "Actualizar todos los paquetes instalados.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "6db68a22-2d69-44d5-a8a7-53ec501d5fc6",
+			"name": "apt-get remove package_name",
+			"description": "Eliminar un paquete deb del sistema.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "d215b8ba-1373-4558-b30f-14de74af30a7",
+			"name": "apt-get check",
+			"description": "Verificar la correcta resolución de las dependencias.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "1614969a-be4b-4816-8cf5-34cacb38df42",
+			"name": "apt-get clean",
+			"description": "Limpiar cache desde los paquetes descargados.",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "b4a120d0-ff8b-4dbd-bee6-2c2e96eef259",
+			"name": "apt-cache search searched-package",
+			"description": "Retorna lista de paquetes que corresponde a la serie «paquetes buscados».",
+			"category": {
+				"uuid": "8a11dd08-561d-44e5-b107-eb02f658de01",
+				"name": "Actualizador de paquetes APT (Debian, Ubuntu y derivados)",
+				"description": "Gestor para instalar, actualizar y eliminar paquetes en sistemas Debian y Ubuntu.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "08bcf139-d241-4dee-b4c7-5d6fad726122",
+			"name": "yum install package_name",
+			"description": "Descargar e instalar un paquete rpm.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "95e4b994-57f2-477d-b43b-769a3d69f28e",
+			"name": "yum localinstall package_name.rpm",
+			"description": "Este instalará un RPM y tratará de resolver todas las dependencies para ti, usando tus repositorios.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "4c2c8a55-56de-4190-945e-5eecc04abd13",
+			"name": "yum update package_name.rpm",
+			"description": "Actualizar todos los paquetes rpm instalados en el sistema.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "572e87f7-8715-4a2a-b97b-c32d49d8ecb7",
+			"name": "yum update package_name",
+			"description": "Modernizar / actualizar un paquete rpm.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "f5628251-7177-4b7b-a5fd-87d98700442f",
+			"name": "yum remove package_name",
+			"description": "Eliminar un paquete rpm.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "286f4ddf-216a-4a71-8608-1f9844b17fbf",
+			"name": "yum list",
+			"description": "Listar todos los paquetes instalados en el sistema.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "f464dacc-26ed-48b7-836a-7dc6a026d1b7",
+			"name": "yum search package_name",
+			"description": "Encontrar un paquete en repositorio rpm.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "27001bf7-b430-460c-8c27-c2e964e620b1",
+			"name": "yum clean packages",
+			"description": "Limpiar un caché rpm borrando los paquetes descargados.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "4b941800-4803-479b-9886-5870c2ba5d6f",
+			"name": "yum clean headers",
+			"description": "Eliminar todos los ficheros de encabezamiento que el sistema usa para resolver la dependencia.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "c9188c3c-9c65-4972-ac91-b488a5f6f94e",
+			"name": "yum clean all",
+			"description": "Eliminar desde los paquetes caché y ficheros de encabezado.",
+			"category": {
+				"uuid": "7a236c98-ea93-44b9-a6c3-c6a6c6d772e3",
+				"name": "Actualizador de paquetes YUM (Red Hat,  Fedora y similares)",
+				"description": "Herramienta para manejar paquetes en sistemas basados en Red Hat como Fedora.",
+				"svg": "cpu.svg"
+			}
+		},
+		{
+			"uuid": "1e3f3cea-9a00-4a31-8f74-580e8fab1943",
+			"name": "badblocks -v /dev/hda1",
+			"description": "Chequear los bloques defectuosos en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "e9b6c2a9-6eda-443a-976f-bbd58bba522a",
+			"name": "fsck /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero del sistema Linux en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "32070ba4-5f5c-4f7c-8c0a-1a6b7480d8d6",
+			"name": "fsck.ext2 /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "54916ea6-e424-48ce-8a69-77b3c408f377",
+			"name": "e2fsck /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "b7c2360f-a275-453f-a7d1-2c8ab0b39c30",
+			"name": "e2fsck -j /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "460674b8-340e-48d7-aff9-496d2d759f56",
+			"name": "fsck.ext3 /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "028f3644-55d8-4fe6-b3ac-ec1d3d733386",
+			"name": "fsck.vfat /dev/hda1",
+			"description": "Reparar / chequear la integridad del fichero sistema fat en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "a5aa7a90-5982-4b50-b47c-82c129351570",
+			"name": "fsck.msdos /dev/hda1",
+			"description": "Reparar / chequear la integridad de un fichero del sistema dos en el disco hda1.",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "aed19eda-7b62-4406-a9e6-a80a5e8b11a5",
+			"name": "dosfsck /dev/hda1",
+			"description": "Reparar / chequear la integridad de un fichero del sistema dos en el disco hda1",
+			"category": {
+				"uuid": "76a54cf2-55ee-4160-b4eb-011459f00685",
+				"name": "Análisis del sistema de ficheros",
+				"description": "Comandos para verificar y reparar errores en sistemas de archivos.",
+				"svg": "archive.svg"
+			}
+		},
+		{
+			"uuid": "1a015e02-e58f-4317-b76c-7676be42a022",
+			"name": "shutdown -h now ",
+			"description": "Apagar el sistema (1).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "305fa06e-1529-4a3f-9d70-51b3196b9e0c",
+			"name": "init 0 ",
+			"description": "Apagar el sistema (2).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "8af7f76a-e8d7-46c9-bb7b-8f58b2460bb3",
+			"name": "telinit 0 ",
+			"description": "Apagar el sistema (3).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "50a3e5d6-f952-4e58-a950-ffa172fd9284",
+			"name": "halt",
+			"description": " apagar el sistema (4).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "535ccd05-6134-448b-9281-a173f20fdfba",
+			"name": "shutdown -h hours:minutes &",
+			"description": " apagado planificado del sistema.",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "a2f1d755-6f8e-42c9-8f02-b1927e225c05",
+			"name": "shutdown -c ",
+			"description": "Cancelar un apagado planificado del sistema.",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "4dba44f0-3a02-4436-aaea-17054331c752",
+			"name": "shutdown -r now ",
+			"description": "Reiniciar (1).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "a8ab8e43-de03-409a-a6bb-25deb663b457",
+			"name": "reboot ",
+			"description": "Reiniciar (2).",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "eea7ad74-ef0e-469d-8561-134ff997c211",
+			"name": "logout ",
+			"description": "Cerrar sesión.",
+			"category": {
+				"uuid": "2df53a9b-86c9-48f2-8796-df4c81aae62c",
+				"name": "Apagar (Reiniciar Sistema o Cerrar Sesión)",
+				"description": "Permite apagar, reiniciar o cerrar sesión del sistema.",
+				"svg": "power.svg"
+			}
+		},
+		{
+			"uuid": "f8e3f0fa-2397-41ed-8a98-edde1a1d381b",
+			"name": "cd /home ",
+			"description": "Entrar en el directorio “home”.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "7480ad3b-526f-4940-8461-009875828bd4",
+			"name": "cd .. ",
+			"description": "Retroceder un nivel.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "57c2b637-6f83-4f73-be99-65bd8b5e43b4",
+			"name": "cd ../.. ",
+			"description": "Retroceder 2 niveles.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "5910b629-078c-45a0-bf21-f66200e51aa2",
+			"name": "cd",
+			"description": " ir al directorio raíz.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "b7029bea-905a-4d38-8e40-6f18e50a7f44",
+			"name": "cd ~user1 ",
+			"description": "Ir al directorio user1.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "9e08f2a3-c6d0-4359-b07c-a5d6b10f0e1b",
+			"name": "cd – ",
+			"description": "Ir (regresar) al directorio anterior.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "0a269faa-5252-44fe-8617-c5e2460a1463",
+			"name": "pwd",
+			"description": " mostrar el camino del directorio de trabajo.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "b494bb61-3d94-4c52-9cec-c0b9e6050a96",
+			"name": "ls",
+			"description": " ver los ficheros de un directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "13b6da5d-2215-445b-811a-39ea9445f43f",
+			"name": "ls -F ",
+			"description": "Ver los ficheros de un directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "119d4bc0-78c0-4f20-8edb-4662bf50971b",
+			"name": "ls -l ",
+			"description": "Mostrar los detalles de ficheros y carpetas de un directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "72d14f4c-9039-43fa-b57a-6482a5997ef2",
+			"name": "ls -a ",
+			"description": "Mostrar los ficheros ocultos.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "c43f9d2a-8e51-4781-88ea-36fc83a3512e",
+			"name": "ls *[0-9]* ",
+			"description": "Mostrar los ficheros y carpetas que contienen números.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "b1ed8ac1-40ba-4000-8fea-3f42714f78d1",
+			"name": "tree",
+			"description": " mostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.(1)",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "fd9a3452-3ba8-4769-bdeb-691c1f3f4f44",
+			"name": "lstree",
+			"description": " mostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.(2)",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "5b280ee5-766a-4368-9e98-9f1eb4956c3d",
+			"name": "mkdir dir1 ",
+			"description": "Crear una carpeta o directorio con nombre ‘dir1’.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "387a821a-ad9c-4a77-9d04-b9fb8597dc42",
+			"name": "mkdir dir1 dir2 ",
+			"description": "Crear dos carpetas o directorios simultáneamente (Crear dos directorios a la vez).",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "2b7706e0-11a8-4ecc-b750-869c2b95d814",
+			"name": "mkdir -p /tmp/dir1/dir2 ",
+			"description": "Crear un árbol de directorios.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "b65dec17-4dd0-4fb6-8480-a6b3b09bf996",
+			"name": "rm -f file1 ",
+			"description": "Borrar el fichero llamado ‘file1’.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "19213b2f-78ce-4602-a61b-b32a4250a30d",
+			"name": "rmdir dir1 ",
+			"description": "Borrar la carpeta llamada ‘dir1’.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "cb42db26-79e7-42a5-ab9f-ba9212ba8cb8",
+			"name": "rm -rf dir1 ",
+			"description": "Eliminar una carpeta llamada ‘dir1’ con su contenido de forma recursiva. (Si lo borro recursivo estoy diciendo que es con su contenido).",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "2413163d-c75b-483f-b57f-411c3bf82b39",
+			"name": "rm -rf dir1 dir2 ",
+			"description": "Borrar dos carpetas (directorios) con su contenido de forma recursiva.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "447b35af-6b4b-4ac7-905b-d2af586b5597",
+			"name": "mv dir1 new_dir ",
+			"description": "Renombrar o mover un fichero o carpeta (directorio).",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "10186d82-ecfa-47f6-b931-9d472980b7fb",
+			"name": "cp file1 ",
+			"description": "Copiar un fichero.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "95381f70-49f2-4d6c-998f-59a6974c2f5f",
+			"name": "cp file1 file2 ",
+			"description": "Copiar dos ficheros al unísono.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "f35f640a-c59e-4fcf-8371-9a701f1801c7",
+			"name": "cp dir /* ",
+			"description": ". copiar todos los ficheros de un directorio dentro del directorio de trabajo actual.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "f251de31-b188-4220-804b-8f94912871e0",
+			"name": "cp -a /tmp/dir1 . ",
+			"description": "Copiar un directorio dentro del directorio actual de trabajo.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "bc42a7ed-6077-4d52-8919-95c11dcc2e63",
+			"name": "cp -a dir1 ",
+			"description": "Copiar un directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "5ead7dd3-cce8-4b15-a0bb-020b08b6606f",
+			"name": "cp -a dir1 dir2 ",
+			"description": "Copiar dos directorio al unísono.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "8fded684-9035-4f27-bb66-797731fa6ddd",
+			"name": "ln -s file1 lnk1 ",
+			"description": "Crear un enlace simbólico al fichero o directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "4f64eec9-7e3d-4513-b556-9192e94280b4",
+			"name": "ln file1 lnk1 ",
+			"description": "Crear un enlace físico al fichero o directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "5bdb5c83-3a23-4f5a-b904-7f770ca3fc21",
+			"name": "touch -t 0712250000 file1 ",
+			"description": "Modificar el tiempo real (tiempo de creación) de un fichero o directorio.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "a84cce8a-2655-4d5e-abe5-93fc25c3f1ea",
+			"name": "file file1 ",
+			"description": "Salida (volcado en pantalla) del tipo mime de un fichero texto.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "813a661b-ee70-45f6-8066-f685e6e36e81",
+			"name": "iconv -l ",
+			"description": "Listas de cifrados conocidos.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "111f7a62-1c91-4b00-b2e1-1efbca6a5602",
+			"name": "iconv -f fromEncoding -t toEncoding inputFile > outputFile ",
+			"description": "Crea una nueva forma del fichero de entrada asumiendo que está codificado en fromEncoding y convirtiéndolo a ToEncoding.",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "6211deee-616b-45c3-b81d-bc2e68226979",
+			"name": "find . -maxdepth 1 -name *.jpg -print -exec convert ”{}” -resize 80×60 “thumbs/{}” \\",
+			"description": "Agrupar ficheros redimensionados en el directorio actual y enviarlos a directorios en vistas de miniaturas (requiere convertir desde ImagemagicK).",
+			"category": {
+				"uuid": "f2ca1a88-4580-4fc6-b3ca-22f6f1749494",
+				"name": "Archivos y Directorios",
+				"description": "Comandos para crear, copiar, mover y eliminar archivos y carpetas.",
+				"svg": "folder.svg"
+			}
+		},
+		{
+			"uuid": "5c4e657b-45ea-4b66-8ebf-d8a6479d071b",
+			"name": "bunzip2 file1.bz2",
+			"description": "Descomprime in fichero llamado ‘file1.bz2’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "b50b1db0-e838-420a-90f4-26df43bbe493",
+			"name": "bzip2 file1",
+			"description": "Comprime un fichero llamado ‘file1’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "b41aa842-9d8f-4373-b0c7-701a40dda659",
+			"name": "gunzip file1.gz",
+			"description": "Descomprime un fichero llamado ‘file1.gz’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "c8e5dbe4-e7df-4c57-a7bc-90790b22845f",
+			"name": "gzip file1",
+			"description": "Comprime un fichero llamado ‘file1’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "9b069e58-8cd0-4362-b98f-da26868c5b79",
+			"name": "gzip -9 file1",
+			"description": "Comprime con compresión máxima.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "599b5941-c6c4-4c7b-bb26-a97bf76b31fa",
+			"name": "rar a file1.rar test_file",
+			"description": "Crear un fichero rar llamado ‘file1.rar’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "e748f5ba-c727-4684-bb5e-810df0db3846",
+			"name": "rar a file1.rar file1 file2 dir1",
+			"description": "Comprimir ‘file1’, ‘file2’ y ‘dir1’ simultáneamente.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "b9f715cb-3c24-4ff2-9139-5f4e45cd34aa",
+			"name": "rar x file1.rar",
+			"description": "Descomprimir archivo rar.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "9864d89e-5088-440a-9363-55b5fe12c059",
+			"name": "unrar x file1.rar",
+			"description": "Descomprimir archivo rar.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "93af3384-31f3-4f48-ad42-a8e8149f6d78",
+			"name": "tar -cvf archive.tar file1",
+			"description": "Crear un tarball descomprimido.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "b296bfa5-540b-456b-8cb1-4abf0dd47bde",
+			"name": "tar -cvf archive.tar file1 file2 dir1",
+			"description": "Crear un archivo conteniendo ‘file1’, ‘file2′ y’dir1’.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "b9bb9931-dc92-4fb9-bf1c-dd690a51a817",
+			"name": "tar -tf archive.tar",
+			"description": "Mostrar los contenidos de un archivo.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "cb888fe3-69d2-496d-abb0-6cf28e437226",
+			"name": "tar -xvf archive.tar",
+			"description": "Extraer un tarball.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "a9733618-b3e9-49b5-8f61-76a6fb8602f2",
+			"name": "tar -xvf archive.tar -C /tmp",
+			"description": "Extraer un tarball en / tmp.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "12b88304-221f-45ec-91a3-dea9773c3dc5",
+			"name": "tar -cvfj archive.tar.bz2 dir1",
+			"description": "Crear un tarball comprimido dentro de bzip2.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "3a7d1f9e-260f-4e69-b0c1-02fcb2c331e8",
+			"name": "tar -xvfj archive.tar.bz2",
+			"description": "Descomprimir un archivo tar comprimido en bzip2",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "d83cfa4b-568d-4562-85c1-dad3a772bf52",
+			"name": "tar -cvfz archive.tar.gz dir1",
+			"description": "Crear un tarball comprimido en gzip.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "40f9f40c-51f6-407b-8e37-c5c4c064880e",
+			"name": "tar -xvfz archive.tar.gz",
+			"description": "Descomprimir un archive tar comprimido en gzip.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "5e0c07e7-ad54-4a70-ab5c-031ebc3d00c3",
+			"name": "zip file1.zip file1",
+			"description": "Crear un archivo comprimido en zip.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "bc133605-8f45-4895-9503-9c5ce04e351a",
+			"name": "zip -r file1.zip file1 file2 dir1",
+			"description": "Comprimir, en zip, varios archivos y directorios de forma simultánea.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "538bc2c6-b04d-4d40-8e2d-912b3f17f8a2",
+			"name": "unzip file1.zip",
+			"description": "Descomprimir un archivo zip.",
+			"category": {
+				"uuid": "052eec80-f389-4eb1-a8b6-69d4403d2054",
+				"name": "Archivos y Ficheros comprimidos",
+				"description": "Gestiona archivos comprimidos, como crear, extraer y listar contenido.",
+				"svg": "file-zip.svg"
+			}
+		},
+		{
+			"uuid": "f2f3e2fa-0b63-4f81-b967-fd9f289cb18e",
+			"name": "chattr +a file1",
+			"description": "Permite escribir abriendo un fichero solamente modo append.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "c769ad9e-aeb3-4a14-9dcc-1e89c0440fd1",
+			"name": "chattr +c file1",
+			"description": "Permite que un fichero sea comprimido / descomprimido automaticamente.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "77ca7a81-ba41-4d80-a84e-c7d06915a235",
+			"name": "chattr +d file1",
+			"description": "Asegura que el programa ignore borrar los ficheros durante la copia de seguridad.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "66dc95d7-26b1-4706-85c5-96ba12c15d36",
+			"name": "chattr +i file1",
+			"description": "Convierte el fichero en invariable, por lo que no puede ser eliminado, alterado, renombrado, ni enlazado.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "5a441d1b-58a5-4e93-9199-39ad80e66555",
+			"name": "chattr +s file1",
+			"description": "Permite que un fichero sea borrado de forma segura.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "b338e766-a190-4d2f-8cc6-ae8f054ec785",
+			"name": "chattr +S file1",
+			"description": "Asegura que un fichero sea modificado, los cambios son escritos en modo synchronous como con sync.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "67932f37-be43-4b7a-a04a-709f49778c61",
+			"name": "chattr +u file1",
+			"description": "Te permite recuperar el contenido de un fichero aún si este está cancelado.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "793b34ca-c8ab-472a-91c1-455e878e3349",
+			"name": "lsattr",
+			"description": "Mostrar atributos especiales.",
+			"category": {
+				"uuid": "799a28af-34d1-4928-a694-f9f110e479ff",
+				"name": "Atributos especiales en ficheros (Usa + para colocar permisos y - para eliminar)",
+				"description": "Cambia propiedades específicas de archivos, como permisos o restricciones.",
+				"svg": "files.svg"
+			}
+		},
+		{
+			"uuid": "23375582-e6f2-49a8-9f73-9b2202ccef09",
+			"name": "cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force",
+			"description": "Limpiar o borrar un cd regrabable.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "5292faa0-25d4-4bcb-8406-669b16dc73dd",
+			"name": "mkisofs /dev/cdrom > cd.iso",
+			"description": "Crear una imagen iso de cdrom en disco.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "e3d80369-c331-4832-82b3-e49fd77fb4bb",
+			"name": "mkisofs /dev/cdrom | gzip > cd_iso.gz",
+			"description": "Crear una imagen comprimida iso de cdrom en disco.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "9a71c366-4ce0-4650-9866-0288fcf516ac",
+			"name": "mkisofs -J -allow-leading-dots -R -V “Label CD” -iso-level 4 -o ./cd.iso data_cd",
+			"description": "Crear una imagen iso de un directorio.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "ed01184d-3bcc-4b62-8e4c-fd6a75d4e40e",
+			"name": "cdrecord -v dev=/dev/cdrom cd.iso",
+			"description": "Quemar una imagen iso.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "b56fcf05-3397-4d28-ab62-06ba57f7c043",
+			"name": "gzip -dc cd_iso.gz | cdrecord dev=/dev/cdrom –",
+			"description": "Quemar una imagen iso comprimida.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "63729f47-a095-4c85-80ec-782ba66fb6d4",
+			"name": "mount -o loop cd.iso /mnt/iso",
+			"description": "Montar una imagen iso.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "bdbe45fb-4815-462a-a362-29359e316e7f",
+			"name": "cd-paranoia -B",
+			"description": "Llevar canciones de un cd a ficheros wav.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "eb58506e-bac1-45d1-914d-99aa1fd99821",
+			"name": "cd-paranoia – ”-3”",
+			"description": "Llevar las 3 primeras canciones de un cd a ficheros wav.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "d9bc809f-364a-4b54-9108-297faa5eba2e",
+			"name": "cdrecord –scanbus",
+			"description": "Escanear bus para identificar el canal scsi.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "95c0c9d5-1aca-4184-8e27-f888527daaf2",
+			"name": "dd if=/dev/hdc | md5sum",
+			"description": "Hacer funcionar un md5sum en un dispositivo, como un CD.",
+			"category": {
+				"uuid": "5e83b3e3-ba92-4cd1-a8a6-aeefc3a8abb9",
+				"name": "CD-ROM",
+				"description": "Gestiona la lectura y escritura de discos ópticos como CDs y DVDs.",
+				"svg": "disc.svg"
+			}
+		},
+		{
+			"uuid": "9ca01bce-245d-4138-a12a-f12ff561c3ba",
+			"name": "find / -name file1",
+			"description": "Buscar fichero y directorio a partir de la raíz del sistema.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "2ad34501-24ab-49fd-92a9-8b18ae85df84",
+			"name": "find / -user user1",
+			"description": "Buscar ficheros y directorios pertenecientes al usuario ‘user1’.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "2418a9c7-8674-4d21-8aae-9c6eacede282",
+			"name": "find /home/user1 -name \\*.bin",
+			"description": "Buscar ficheros con extensión ‘. bin’ dentro del directorio ‘/ home/user1’.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "627eb2c2-c0aa-4974-9da3-61cbea5ecb1f",
+			"name": "find /usr/bin -type f -atime +100",
+			"description": "Buscar ficheros binarios no usados en los últimos 100 días.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "7dd9fd2f-532c-410e-8ef4-ef9eb5727bc3",
+			"name": "find /usr/bin -type f -mtime -10",
+			"description": "Buscar ficheros creados o cambiados dentro de los últimos 10 días.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "599bd071-df63-4a05-94f5-b42c70333390",
+			"name": "find / -name \\*.rpm -exec chmod 755 ‘{}’ \\",
+			"description": "Buscar ficheros con extensión ‘.rpm’ y modificar permisos.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "923904be-a20f-4f3e-83bf-d5af11ef480f",
+			"name": "find / -xdev -name \\*.rpm",
+			"description": "Buscar ficheros con extensión ‘.rpm’ ignorando los dispositivos removibles como cdrom, pen-drive, etc.…",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "8292b676-b748-49f7-89f0-6bf7199e668f",
+			"name": "locate \\*.ps",
+			"description": "Encuentra ficheros con extensión ‘.ps’ ejecutados primeramente con el command ‘updatedb’.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "0b1be2ff-fd39-4dc6-ba52-374c6892c184",
+			"name": "whereis halt",
+			"description": "Mostrar la ubicación de un fichero binario, de ayuda o fuente. En este caso pregunta dónde está el comando ‘halt’.",
+			"category": {
+				"uuid": "2dcabee3-2c4c-46bd-a41c-bb7009bff459",
+				"name": "Encontrar archivos",
+				"description": "Busca archivos o carpetas por nombre, tipo o atributos.",
+				"svg": "search.svg"
+			}
+		},
+		{
+			"uuid": "05c0e311-cc93-4c4c-a603-7a21359c8435",
+			"name": "which halt",
+			"description": "Mostrar la senda completa (el camino completo) a un binario / ejecutable.",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "d579134c-5fca-4323-b799-f98a391f1616",
+			"name": "df -h",
+			"description": "Mostrar una lista de las particiones montadas.",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "95be1c84-0894-4488-a68a-beb2ec29906b",
+			"name": "ls -lSr |more",
+			"description": "Mostrar el tamaño de los ficheros y directorios ordenados por tamaño.",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "e39ef4e5-80f3-4568-99c0-75cad0e75d9f",
+			"name": "du -sh dir1",
+			"description": "Estimar el espacio usado por el directorio ‘dir1’.",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "8dc9987e-b6e1-4a1a-93f6-9a76a5dd5f0a",
+			"name": "du -sk * | sort -rn",
+			"description": "Mostrar el tamaño de los ficheros y directorios ordenados por tamaño.",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "edf303c3-8c34-445b-b0f7-df580a060495",
+			"name": "rpm -q -a –qf ‘%10{SIZE}t%{NAME}n’ | sort -k1,1n",
+			"description": "Mostrar el espacio usado por los paquetes rpm instalados organizados por tamaño (Fedora, Redhat y otros).",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "d1fa6dcd-f644-45ac-9d38-9330258da636",
+			"name": "dpkg-query -W -f=’${Installed-Size;10}t${Package}n’ | sort -k1,1n",
+			"description": "Mostrar el espacio usado por los paquetes instalados, organizados por tamaño (Ubuntu, Debian y otros).",
+			"category": {
+				"uuid": "baffe34e-7d9f-45aa-b3c4-6d83f07100e2",
+				"name": "Espacio de Disco",
+				"description": "Muestra el uso del disco duro y analiza espacio libre y ocupado.",
+				"svg": "hdd.svg"
+			}
+		},
+		{
+			"uuid": "13f09825-95eb-4754-9ae7-84efafde0b85",
+			"name": "dos2unix filedos.txt fileunix.txt",
+			"description": "Convertir un formato de fichero texto desde MSDOS a UNIX.",
+			"category": {
+				"uuid": "1653214c-2d21-4a73-af9a-c5ffe19d2eec",
+				"name": "Establecer caracter y conversión de ficheros",
+				"description": "Cambia codificaciones de texto y formatos de archivos.",
+				"svg": "file-binary.svg"
+			}
+		},
+		{
+			"uuid": "0e2d6466-2f87-43d9-aeb0-316086a34ca3",
+			"name": "unix2dos fileunix.txt filedos.txt",
+			"description": "Convertir un formato de fichero de texto desde UNIX a MSDOS.",
+			"category": {
+				"uuid": "1653214c-2d21-4a73-af9a-c5ffe19d2eec",
+				"name": "Establecer caracter y conversión de ficheros",
+				"description": "Cambia codificaciones de texto y formatos de archivos.",
+				"svg": "file-binary.svg"
+			}
+		},
+		{
+			"uuid": "074b3765-2b6d-4969-aea9-fe6175297345",
+			"name": "recode ..HTML < page.txt > page.html",
+			"description": "Convertir un fichero de texto en html.",
+			"category": {
+				"uuid": "1653214c-2d21-4a73-af9a-c5ffe19d2eec",
+				"name": "Establecer caracter y conversión de ficheros",
+				"description": "Cambia codificaciones de texto y formatos de archivos.",
+				"svg": "file-binary.svg"
+			}
+		},
+		{
+			"uuid": "d0ecc187-7d60-443a-b6ab-93fc185e1388",
+			"name": "recode -l | more",
+			"description": "Mostrar todas las conversiones de formato disponibles.",
+			"category": {
+				"uuid": "1653214c-2d21-4a73-af9a-c5ffe19d2eec",
+				"name": "Establecer caracter y conversión de ficheros",
+				"description": "Cambia codificaciones de texto y formatos de archivos.",
+				"svg": "file-binary.svg"
+			}
+		},
+		{
+			"uuid": "ada450e6-5f54-4d6f-bd54-dcdacfe89bf8",
+			"name": "mkfs /dev/hda1",
+			"description": "Crear un fichero de sistema tipo Linux en la partición hda1.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "9561adb0-6787-416b-b518-7ed8cf59afd9",
+			"name": "mke2fs /dev/hda1",
+			"description": "Crear un fichero de sistema tipo Linux ext 2 en hda1.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "4d89b3b1-ee39-44ac-94ac-9b2f32545ee5",
+			"name": "mke2fs -j /dev/hda1",
+			"description": "Crear un fichero de sistema tipo Linux ext3 (periódico) en la partición hda1.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "79b89e8e-a723-4d60-a498-8d2593e2fd59",
+			"name": "mkfs -t vfat 32 -F /dev/hda1",
+			"description": "Crear un fichero de sistema FAT32 en hda1.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "b5f6adf8-2c7a-4716-be2b-ebf87a10a9a3",
+			"name": "fdformat -n /dev/fd0",
+			"description": "Formatear un disco flooply.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "e5102764-d234-40de-989f-a501635a008e",
+			"name": "mkswap /dev/hda3",
+			"description": " crear un fichero de sistema swap.",
+			"category": {
+				"uuid": "cd480628-4b95-4f1d-bf69-30d9482db1a5",
+				"name": "Formatear un sistema de ficheros",
+				"description": "Prepara discos para almacenar datos al crear un sistema de archivos.",
+				"svg": "hdd-rack.svg"
+			}
+		},
+		{
+			"uuid": "64ecea60-a819-4ec0-ab9a-2f8c28054534",
+			"name": "cat file1 file2 .. | command <> file1_in.txt_or_file1_out.txt",
+			"description": "Sintaxis general para la manipulación de texto utilizando PIPE, STDIN y STDOUT.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "7f385071-8224-48b8-9064-6d547302fdf0",
+			"name": "cat file1 | command( sed, grep, awk, grep, etc…) > result.txt",
+			"description": "Sintaxis general para manipular un texto de un fichero y escribir el resultado en un fichero nuevo.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "6db9e4ac-c0b3-490f-a4d1-accd40801c2b",
+			"name": "cat file1 | command( sed, grep, awk, grep, etc…) » result.txt",
+			"description": "Sintaxis general para manipular un texto de un fichero y añadir resultado en un fichero existente.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "40408eb1-dd73-43a1-aa17-254e50927972",
+			"name": "grep Aug /var/log/messages",
+			"description": "Buscar palabras “Aug” en el fichero ‘/var/log/messages’.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "41eea5c4-a1a0-43de-8aa7-ec408f7556f8",
+			"name": "grep ^Aug /var/log/messages",
+			"description": "Buscar palabras que comienzan con “Aug” en fichero ‘/var/log/messages’",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "b5eac0cd-b0e9-41ac-a7ee-66c8ce900225",
+			"name": "grep [0-9] /var/log/messages",
+			"description": "Seleccionar todas las líneas del fichero ‘/var/log/messages’ que contienen números.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "7386db35-c5dc-4db0-8058-f4af5b547fed",
+			"name": "grep Aug -R /var/log/*:",
+			"description": "Buscar la cadena “Aug” en el directorio ‘/var/log’ y debajo.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "8db8fa95-6f9e-41cb-a7c9-bf4f789567ff",
+			"name": "sed ‘s/stringa1/stringa2/g’ example.txt",
+			"description": "Reubicar “string1” con “string2” en ejemplo.txt",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "f1730049-69e8-4c4d-9590-18d96a9ccc8d",
+			"name": "sed ‘/^$/d’ example.txt",
+			"description": "Eliminar todas las líneas en blanco desde el ejemplo.txt",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "04107fe3-86ad-4dc9-b4a6-79d033668507",
+			"name": "sed ‘/ *#/d",
+			"description": " /^$/d’ example.txt",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "31c75a84-cce4-4d0a-a672-8723052790b3",
+			"name": "echo ‘esempio’ | tr ‘[:lower:]’ ‘[:upper:]’",
+			"description": "Convertir minúsculas en mayúsculas.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "85d8ec71-025b-415c-947f-59c0c67e3483",
+			"name": "sed -e ‘1d’ result.txt",
+			"description": "Elimina la primera línea del fichero ejemplo.txt",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "bf9fbe3b-f282-4bd4-9e69-0e15aa40e63f",
+			"name": "sed -n ‘/stringa1/p’",
+			"description": "Visualizar solamente las líneas que contienen la palabra “string1”.",
+			"category": {
+				"uuid": "adb352b8-dc28-492f-b94f-7829c7744b21",
+				"name": "Manipulación de texto",
+				"description": "Comandos para procesar texto: buscar, reemplazar, dividir y ordenar.",
+				"svg": "file-earmark-text.svg"
+			}
+		},
+		{
+			"uuid": "37f87225-20fa-4da1-9534-03e87163a4ba",
+			"name": "top",
+			"description": "Mostrar las tareas de linux usando la mayoría cpu.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "fc7a970f-3629-4051-a921-4b01ed8d1b7b",
+			"name": "ps -eafw",
+			"description": "Muestra las tareas Linux.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "9ef3ffca-92d8-48de-9448-567e79ec7692",
+			"name": "ps -e -o pid,args –forest",
+			"description": "Muestra las tareas Linux en un modo jerárquico.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "8e97dba6-00a7-4541-8746-5ea00e25fc2a",
+			"name": "pstree",
+			"description": "Mostrar un árbol sistema de procesos.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "5150deb4-db2a-4d87-bbad-8555ce6955e2",
+			"name": "kill -9 ID_Processo",
+			"description": "Forzar el cierre de un proceso y terminarlo.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "4273a564-4db5-4962-8e06-6a112ac7c47f",
+			"name": "kill -1 ID_Processo",
+			"description": "Forzar un proceso para recargar la configuración.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "a39f52c3-d857-4e76-8395-270821b83198",
+			"name": "lsof -p $$",
+			"description": "Mostrar una lista de ficheros abiertos por procesos.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "604f44dd-d36b-4a75-9e5b-a8774283aa2e",
+			"name": "lsof /home/user1",
+			"description": "Muestra una lista de ficheros abiertos en un camino dado del sistema.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "24daaf2f-3371-4e83-a477-2d4032a37b5b",
+			"name": "strace -c ls >/dev/null",
+			"description": "Mostrar las llamadas del sistema hechas y recibidas por un proceso.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "62d7330e-e09d-44f7-a4fb-4819d4460383",
+			"name": "strace -f -e open ls >/dev/null",
+			"description": "Mostrar las llamadas a la biblioteca.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "2e40796f-1776-4780-837b-b1e89ea9f329",
+			"name": "watch -n1 ‘cat /proc/interrupts’",
+			"description": "Mostrar interrupciones en tiempo real.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "4bcc4103-33c1-4488-b029-716b402feaa4",
+			"name": "last reboot",
+			"description": "Mostrar historial de reinicio.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "60ff9fe1-063e-4f65-bfa9-05996015b544",
+			"name": "lsmod",
+			"description": "Mostrar el kernel cargado.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "de4e8bc9-79c2-4a16-be2a-9c3128319d0c",
+			"name": "free -m",
+			"description": "Muestra el estado de la RAM en megabytes.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "8d51a4b2-996a-48c9-9263-bb31e87184e5",
+			"name": "smartctl -A /dev/hda",
+			"description": "Monitorear la fiabilidad de un disco duro a través de SMART.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "c9e1aae5-a630-4010-aded-b16b9881c0bb",
+			"name": "smartctl -i /dev/hda",
+			"description": "Chequear si SMART está activado en un disco duro.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "78f63142-aa24-421a-947f-a1866ea475f9",
+			"name": "tail /var/log/dmesg",
+			"description": "Mostrar eventos inherentes al proceso de carga del kernel.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "550a9bc2-8136-478d-a1c9-fe1f66f67372",
+			"name": "tail /var/log/messages",
+			"description": "Mostrar los eventos del sistema.",
+			"category": {
+				"uuid": "cca7ed6a-cda7-4a84-bd1a-f2703dc18ff5",
+				"name": "Monitoreando y depurando",
+				"description": "Herramientas para observar procesos, recursos y solucionar errores.",
+				"svg": "terminal-split.svg"
+			}
+		},
+		{
+			"uuid": "1b5d7bb8-8729-4a75-acc2-286cd1e89bb4",
+			"name": "mount /dev/hda2 /mnt/hda2",
+			"description": "Montar un disco llamado hda2. Verifique primero la existencia del directorio ‘/ mnt/hda2’; si no está, debe crearlo.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "d3f60628-9281-4e8e-bd77-69607173300b",
+			"name": "umount /dev/hda2",
+			"description": "Desmontar un disco llamado hda2. Salir primero desde el punto ‘/ mnt/hda2.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "1461c980-7b39-4d96-aa39-6df014a19334",
+			"name": "fuser -km /mnt/hda2",
+			"description": "Forzar el desmontaje cuando el dispositivo está ocupado.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "4a13f0fa-12fc-4dc3-b858-989f874ddbd7",
+			"name": "umount -n /mnt/hda2",
+			"description": "Correr el desmontaje sin leer el fichero /etc/mtab. Útil cuando el fichero es de solo lectura o el disco duro está lleno.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "f1c3ab0a-eceb-4dca-b135-3042c51ba0db",
+			"name": "mount /dev/fd0 /mnt/floppy",
+			"description": "Montar un disco flexible (floppy).",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "c40b7ccd-f9af-4e7a-8dc7-22999745f4c6",
+			"name": "mount /dev/cdrom /mnt/cdrom",
+			"description": "Montar un cdrom / dvdrom.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "cc350607-a1eb-4536-a0d1-591c53b6e5cd",
+			"name": "mount /dev/hdc /mnt/cdrecorder",
+			"description": "Montar un cd regrabable o un dvdrom.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "efb864c8-12a5-4ae5-ae29-3ea5f01a0ff8",
+			"name": "mount /dev/hdb /mnt/cdrecorder",
+			"description": "Montar un cd regrabable / dvdrom (un dvd).",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "2ba4aef7-d2fa-4431-bc89-452d6fe4a5ed",
+			"name": "mount -o loop file.iso /mnt/cdrom",
+			"description": "Montar un fichero o una imagen iso.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "9d9e0618-af8f-4b27-908c-56385232e45b",
+			"name": "mount -t vfat /dev/hda5 /mnt/hda5",
+			"description": "Montar un sistema de ficheros FAT32.",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "ae3e5313-c584-4b23-bde9-550326092674",
+			"name": "mount /dev/sda1 /mnt/usbdisk",
+			"description": "Montar un usb pen-drive o una memoria (sin especificar el tipo de sistema de ficheros).",
+			"category": {
+				"uuid": "2d0aca68-ba4e-468a-aa85-4c57637b8745",
+				"name": "Montando un sistema de ficheros",
+				"description": "Conecta dispositivos de almacenamiento al sistema operativo.",
+				"svg": "file-earmark-check.svg"
+			}
+		},
+		{
+			"uuid": "addf26a3-7334-4889-93b3-1db42697f787",
+			"name": "apropos …keyword",
+			"description": "Mostrar una lista de comandos que pertenecen a las palabras claves de un programa; son útiles cuando tú sabes qué hace tu programa, pero de sconoces el nombre del comando.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "37ffb132-a970-4a32-931e-236e9efcaa7f",
+			"name": "man ping",
+			"description": "Mostrar las páginas del manual on-line; por ejemplo, en un comando ping, usar la opción ‘-k’ para encontrar cualquier comando relacionado.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "5677608d-3dd3-481f-b78a-75133301c201",
+			"name": "whatis …keyword",
+			"description": "Muestra la descripción de lo que hace el programa.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "02fc01a0-568f-42e8-9f26-7a262cde5a89",
+			"name": "mkbootdisk –device /dev/fd0 `uname -r`",
+			"description": "Crear un floppy boteable.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "5b7a6e65-c76b-4d4a-bee5-0eb56643190a",
+			"name": "gpg -c file1",
+			"description": "Codificar un fichero con guardia de seguridad GNU.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "aa6a1499-2824-413d-a9f2-0d912cf0c9d1",
+			"name": "gpg file1.gpg",
+			"description": "Decodificar un fichero con Guardia de seguridad GNU.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "4a53f48d-dd8e-46b6-91b2-ee4d6a36fb2e",
+			"name": "wget -r www.example.com",
+			"description": "Descargar un sitio web completo.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "3d28389b-7413-4607-87cb-a4dea1544ad3",
+			"name": "wget -c www.example.com/file.iso",
+			"description": "Descargar un fichero con la posibilidad de parar la descargar y reanudar más tarde.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "8a0edda7-5e02-4c1c-ade2-f0a93214b72a",
+			"name": "echo ‘wget -c www.example.com/files.iso‘ | at 09:00",
+			"description": "Comenzar una descarga a cualquier hora. En este caso empezaría a las 9 horas.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "bd9b7dc6-474e-4714-980e-efbcaf0c64fc",
+			"name": "ldd /usr/bin/ssh",
+			"description": "Mostrar las bibliotecas compartidas requeridas por el programa ssh.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "0864dab2-36e2-4721-b2cf-b806b9e80055",
+			"name": "alias hh=’history’",
+			"description": "Colocar un alias para un commando –hh= Historial.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "7ef7e1e2-3365-40f8-96c5-dae86e6a6c56",
+			"name": "chsh",
+			"description": "Cambiar el comando Shell.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "f16b5538-70c8-4c10-a6cc-8f9388b56e22",
+			"name": "chsh –list-shells",
+			"description": "Es un comando adecuado para saber si tienes que hacer remoto en otra terminal.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "d74559f8-a8a5-4b03-8f80-9328bbbf2c58",
+			"name": "who -a",
+			"description": "Mostrar quien está registrado, e imprimir hora del último sistema de importación, procesos muertos, procesos de registro de sistema, procesos activos producidos por init, funcionamiento actual y últimos cambios del reloj del sistema.",
+			"category": {
+				"uuid": "ea30b671-4d01-4879-9ffc-e681f4bdbe3e",
+				"name": "Otros comandos útiles",
+				"description": "Variedad de comandos prácticos para diferentes tareas generales.",
+				"svg": "terminal.svg"
+			}
+		},
+		{
+			"uuid": "3d1d0671-e15d-4f5d-abc3-962b565c7893",
+			"name": "dpkg -i package.deb",
+			"description": "Instalar / actualizar un paquete deb.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "25ece4d7-e969-4155-8c8e-ebbc0a02b52b",
+			"name": "dpkg -r package_name",
+			"description": "Eliminar un paquete deb del sistema.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "75bd1153-b069-4642-b99c-424a4121891f",
+			"name": "dpkg -l",
+			"description": "Mostrar todos los paquetes deb instalados en el sistema.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "4a71690b-17ce-4f32-af72-5e429f0e1e7c",
+			"name": "dpkg -l | grep httpd",
+			"description": "Mostrar todos los paquetes deb con el nombre “httpd”",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "5b100dce-3ef4-4a7a-b908-25986a36231b",
+			"name": "dpkg -s package_name",
+			"description": "Obtener información en un paquete específico instalado en el sistema.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "840a7c98-a769-4b85-b90a-09b69c5b6182",
+			"name": "dpkg -L package_name",
+			"description": "Mostar lista de ficheros dados por un paquete instalado en el sistema.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "1614a741-e4cb-4389-9523-74becac82807",
+			"name": "dpkg –contents package.deb",
+			"description": "Mostrar lista de ficheros dados por un paquete no instalado todavía.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "5139bb39-c27f-4bad-9316-341a5ede8335",
+			"name": "dpkg -S /bin/ping",
+			"description": "Verificar cuál paquete pertenece a un fichero dado.",
+			"category": {
+				"uuid": "b4dd3810-6fb2-4c17-9921-a607810ab4d1",
+				"name": "Paquetes Deb (Debian,  Ubuntu y derivados)",
+				"description": "Comandos para instalar y manejar paquetes .deb en sistemas Debian.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "b173bc1f-3b47-4ad3-83cd-4d096bd141a8",
+			"name": "rpm -ivh package.rpm",
+			"description": "Instalar un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "18a25184-81dc-48ee-8d38-d6d83346368b",
+			"name": "rpm -ivh –nodeeps package.rpm",
+			"description": "Instalar un paquete rpm ignorando las peticiones de dependencias.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "c997ba23-a16a-4b2a-8732-8f30e4a61fa6",
+			"name": "rpm -U package.rpm",
+			"description": "Actualizar un paquete rpm sin cambiar la configuración de los ficheros.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "da83ed86-1d78-4561-bd23-3c9c39f910c9",
+			"name": "rpm -F package.rpm",
+			"description": "Actualizar un paquete rpm solamente si este está instalado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "5be2cb76-03e5-4760-9872-a9f05b7a1d28",
+			"name": "rpm -e package_name.rpm",
+			"description": "Eliminar un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "315f240d-a2af-4098-a47b-aa782b907a62",
+			"name": "rpm -qa",
+			"description": "Mostrar todos los paquetes rpm instalados en el sistema.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "de307b9a-cfad-4b65-9a16-ddf818b418cf",
+			"name": "rpm -qa | grep httpd",
+			"description": "Mostrar todos los paquetes rpm con el nombre “httpd”.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "8385a7df-ac03-4b83-a754-c24f841490cd",
+			"name": "rpm -qi package_name",
+			"description": "Obtener información en un paquete específico instalado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "da4f0962-1a7b-4e81-a4e2-8aa28b14339f",
+			"name": "rpm -qg “System Environment/Daemons”:",
+			"description": "Mostar los paquetes rpm de un grupo software.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "4406aef3-1d71-44ff-bd0e-18d82f796c10",
+			"name": "rpm -ql package_name",
+			"description": "Mostrar lista de ficheros dados por un paquete rpm instalado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "20880616-f819-418b-a07e-f9e6a911f5e9",
+			"name": "rpm -qc package_name",
+			"description": "Mostrar lista de configuración de ficheros dados por un paquete rpm instalado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "92d41496-d296-43ab-853e-9db8ec76d227",
+			"name": "rpm -q package_name –whatrequires",
+			"description": "Mostrar lista de dependencias solicitada para un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "13de275e-ea0f-4d86-b5b1-8e5e33ffc4a6",
+			"name": "rpm -q package_name –whatprovides",
+			"description": "Mostar la capacidad dada por un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "d41b3d02-6d0b-4518-861e-18f66500e62a",
+			"name": "rpm -q package_name –scripts",
+			"description": "Mostrar los scripts comenzados durante la instalación /eliminación.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "d36abee6-3d51-4b15-ac20-0b249310150d",
+			"name": "rpm -q package_name –changelog",
+			"description": "Mostar el historial de revisions de un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "6f2d76da-f2bd-4a45-9938-3cc86e60dee8",
+			"name": "rpm -qf /etc/httpd/conf/httpd.conf",
+			"description": "Verificar cuál paquete rpm pertenece a un fichero dado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "bf9be764-b2e0-4604-a6f1-eb0d97ba8cae",
+			"name": "rpm -qp package.rpm - l",
+			"description": "Mostrar lista de ficheros dados por un paquete rpm que aún no ha sido instalado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "96afe3c3-9757-4cd4-a996-ed9451c8c054",
+			"name": "rpm –import /media/cdrom/RPM-GPG-KEY",
+			"description": "Importar la firma digital de la llave pública.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "04e000e1-89f7-4fdd-b6d6-2d832ae66514",
+			"name": "rpm –checksig package.rpm",
+			"description": "Verificar la integridad de un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "ff861e0e-e05d-42a9-a6e0-7c9724b4dddd",
+			"name": "rpm -qa gpg-pubkey",
+			"description": "Verificar la integridad de todos los paquetes rpm instalados.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "520e79a6-6fd7-49ca-a296-4e4a69b96a4e",
+			"name": "rpm -V package_name",
+			"description": "Chequear el tamaño del fichero, licencias, tipos, dueño, grupo, chequeo de resumen de MD5 y última modificación.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "817a5158-f58d-4e81-b183-63de1b842aeb",
+			"name": "rpm -Va",
+			"description": "Chequear todos los paquetes rpm instalados en el sistema. Usar con cuidado.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "03ff59cc-2dcf-4e9b-9ef5-fc7860d2bba5",
+			"name": "rpm -Vp package.rpm",
+			"description": "Verificar un paquete rpm no instalado todavía.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "126d397c-7214-4d6b-8486-cf8acb093590",
+			"name": "rpm2cpio package.rpm | cpio –extract –make-directories *bin*",
+			"description": "Extraer fichero ejecutable desde un paquete rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "156c982b-a63e-439a-8d98-bc0f5ed5bac6",
+			"name": "rpm -ivh /usr/src/redhat/RPMS/`arch`/package.rpm",
+			"description": "Instalar un paquete construido desde una fuente rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "36e00ea1-d618-432c-93de-27fbe852117b",
+			"name": "rpmbuild –rebuild package_name.src.rpm",
+			"description": "Construir un paquete rpm desde una fuente rpm.",
+			"category": {
+				"uuid": "d67e9037-b03f-4d56-af5a-57075b84398a",
+				"name": "Paquetes RPM (Red Hat,  Fedora y similares)",
+				"description": "Gestiona archivos .rpm en sistemas basados en Red Hat.",
+				"svg": "boxes.svg"
+			}
+		},
+		{
+			"uuid": "3caf9579-8c62-4863-bc91-c7824fa35e0c",
+			"name": "ls -lh",
+			"description": "Mostrar permisos.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "ec888fb1-87bb-41ff-aa1b-6574bf51ebea",
+			"name": "ls /tmp | pr -T5 -W$COLUMNS",
+			"description": "Dividir la terminal en 5 columnas.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "f00f1e5e-c975-461d-aa7f-a8d53a90b1ec",
+			"name": "chmod ugo+rwx directory1",
+			"description": "Colocar permisos de lectura ®, escritura (w) y ejecución(x) al propietario (u), al grupo (g) y a otros (o) sobre el directorio ‘directory1’.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "1f3ed984-90a1-443e-9962-d2455954f731",
+			"name": "chmod go-rwx directory1",
+			"description": "Quitar permiso de lectura ®, escritura (w) y (x) ejecución al grupo (g) y otros (o) sobre el directorio ‘directory1’.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "feb6b493-97f2-4ecc-8ff2-9bd65a6a1b97",
+			"name": "chown user1 file1",
+			"description": "Cambiar el dueño de un fichero.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "bb79b391-0c39-46e4-aee1-7ea8b287af42",
+			"name": "chown -R user1 directory1",
+			"description": "Cambiar el propietario de un directorio y de todos los ficheros y directorios contenidos dentro.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "40ae96af-b4e1-4fd2-baf6-48bfd7ad7f87",
+			"name": "chgrp group1 file1",
+			"description": "Cambiar grupo de ficheros.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "3283a951-3c4b-4e37-b1e7-12ea7ed16c49",
+			"name": "chown user1:group1 file1",
+			"description": "Cambiar usuario y el grupo propietario de un fichero.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "7b9fe0dd-f0fc-4c89-8aad-9a178afd0510",
+			"name": "find / -perm -u+s",
+			"description": "Visualizar todos los ficheros del sistema con SUID configurado.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "3ef824a4-4947-4494-97c1-fcbb44baea1f",
+			"name": "chmod u+s /bin/file1",
+			"description": "Colocar el bit SUID en un fichero binario. El usuario que corriendo ese fichero adquiere los mismos privilegios como dueño.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "c0c98f99-40c1-43e1-83be-bdb9fb0e913e",
+			"name": "chmod u-s /bin/file1",
+			"description": "Deshabilitar el bit SUID en un fichero binario.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "c40e623c-b369-461f-8090-2dc67a78919d",
+			"name": "chmod g+s /home/public",
+			"description": "Colocar un bit SGID en un directorio –similar al SUID pero por directorio.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "c8c44871-fd69-47dc-b28c-7f8b49fbaa01",
+			"name": "chmod g-s /home/public",
+			"description": "Desabilitar un bit SGID en un directorio.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "af4715a0-ee68-47a5-8432-f98d18d474a1",
+			"name": "chmod o+t /home/public",
+			"description": "Colocar un bit STIKY en un directorio. Permite el borrado de ficheros solamente a los dueños legítimos.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "bdb50e3f-0325-42fa-8e1e-d667b329a347",
+			"name": "chmod o-t /home/public",
+			"description": "Desabilitar un bit STIKY en un directorio.",
+			"category": {
+				"uuid": "f8e0b122-7a25-4a57-89ee-91ee4c9529c9",
+				"name": "Permisos en Ficheros (Usa para colocar permisos y para eliminar)",
+				"description": "Controla quién puede leer, escribir o ejecutar un archivo.",
+				"svg": "file-lock.svg"
+			}
+		},
+		{
+			"uuid": "39284308-e263-43db-89e6-bc730de8a485",
+			"name": "nbtscan ip_addr",
+			"description": "Resolución de nombre de red bios.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "97268f2c-53e8-4eaa-b247-ee23ea70d2a7",
+			"name": "nmblookup -A ip_addr",
+			"description": "Resolución de nombre de red bios.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "e1970412-619f-4b84-86f0-7f621bda888e",
+			"name": "smbclient -L ip_addr/hostname",
+			"description": "Mostrar acciones remotas de un host en windows.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "f2a565e5-dc62-4ec5-aa1d-84d5c845de59",
+			"name": "dump -0aj -f /tmp/home0.bak /home",
+			"description": "Hacer una salva completa del directorio ‘/home’.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "5e665415-f906-44c0-9e91-5d6641733b99",
+			"name": "dump -1aj -f /tmp/home0.bak /home",
+			"description": "Hacer una salva incremental del directorio ‘/home’.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "1d9788d4-40cc-47c3-b1af-d71a41d7db86",
+			"name": "restore -if /tmp/home0.bak",
+			"description": "Restaurando una salva interactivamente.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "4440999a-3dd3-49c4-9dc0-bff300c7b60d",
+			"name": "rsync -rogpav –delete /home /tmp",
+			"description": "Sincronización entre directorios.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "07cb6976-7def-4dd0-98fe-720e2740dbb0",
+			"name": "rsync -rogpav -e ssh –delete /home ip_address:/tmp",
+			"description": "Rsync a través del túnel SSH.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "c292b5c9-bc4a-4d58-acea-940135921c29",
+			"name": "rsync -az -e ssh –delete ip_addr:/home/public /home/local",
+			"description": "Sincronizar un directorio local con un directorio remoto a través de ssh y de compresión.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "7b9ac6f9-fb50-461f-88fc-5b79a01fb8ab",
+			"name": "rsync -az -e ssh –delete /home/local ip_addr:/home/public",
+			"description": "Sincronizar un directorio remoto con un directorio local a través de ssh y de compresión.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "ecb340f8-08cd-43a8-8baf-4bd821cbbdbe",
+			"name": "dd bs=1M if=/dev/hda | gzip | ssh user@ip_addr ‘dd of=hda.gz’",
+			"description": "Hacer una salva de un disco duro en un host remoto a través de ssh.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "dc893da4-9238-4ab0-bd35-d8997cf3e945",
+			"name": "dd if=/dev/sda of=/tmp/file1",
+			"description": "Salvar el contenido de un disco duro a un fichero. (En este caso el disco duro es “sda” y el fichero “file1”).",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "cc288356-fcd0-4003-80f5-fe037fd84dc9",
+			"name": "tar -Puf backup.tar /home/user",
+			"description": "Hacer una salva incremental del directorio ‘/home/user’.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "625ad81e-5b5d-444f-a6f4-e55d900224ac",
+			"name": "( cd /tmp/local/ && tar c . ) | ssh -C user@ip_addr ‘cd /home/share/ && tar x -p’",
+			"description": "Copiar el contenido de un directorio en un directorio remoto a través de ssh.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "35c3237e-2578-428c-ac39-24fae60b8eb4",
+			"name": "( tar c /home ) | ssh -C user@ip_addr ‘cd /home/backup-home && tar x -p’",
+			"description": "Copiar un directorio local en un directorio remoto a través de ssh.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "63fd31d9-3167-4cb8-b260-995dea06fd55",
+			"name": "tar cf – . | (cd /tmp/backup ",
+			"description": "Copia local conservando las licencias y enlaces desde un directorio a otro.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "21ac4a24-0de3-42bc-92c6-aec8f75ff32b",
+			"name": "find /home/user1 -name ‘*.txt’ | xargs cp -av –target-directory=/home/backup/ –parents",
+			"description": "Encontrar y copiar todos los ficheros con extensión ‘.txt’ de un directorio a otro.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "b7ca8ca2-3218-4eb6-b39f-4b7ad80d290e",
+			"name": "find /var/log -name ‘*.log’ | tar cv –files-from=- | bzip2 > log.tar.bz2",
+			"description": "Encontrar todos los ficheros con extensión ‘.log’ y hacer un archivo bzip.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "8ff2c4bf-350c-4822-b6f8-6476352e4243",
+			"name": "dd if=/dev/hda of=/dev/fd0 bs=512 count=1",
+			"description": "Hacer una copia del MRB (Master Boot Record) a un disco floppy.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "bcf3f158-98c9-4b4d-95ec-5008190208e0",
+			"name": "dd if=/dev/fd0 of=/dev/hda bs=512 count=1",
+			"description": "Restaurar la copia del MBR (Master Boot Record) salvada en un floppy.",
+			"category": {
+				"uuid": "779b8275-1038-4f3f-b7df-f626f67da749",
+				"name": "Redes de Microsoft Windows (SAMBA)",
+				"description": "Herramientas para compartir archivos entre Linux y Windows.",
+				"svg": "microsoft.svg"
+			}
+		},
+		{
+			"uuid": "913a5e7e-90c6-410a-b0cc-4f7c5c760070",
+			"name": "iptables -t filter -L",
+			"description": "Mostrar todas las cadenas de la tabla de filtro.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "6e7fc3d8-5b73-4dee-8be6-c3ce140e3b62",
+			"name": "iptables -t nat -L",
+			"description": "Mostrar todas las cadenas de la tabla nat.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "be9c26f9-dec7-4ff0-be32-ef6f26211411",
+			"name": "iptables -t filter -F",
+			"description": "Limpiar todas las reglas de la tabla de filtro.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "d3c3d804-c301-4cfa-804e-70fbf0663587",
+			"name": "iptables -t nat -F",
+			"description": "Limpiar todas las reglas de la tabla nat.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "ad3e8e54-346e-47b1-a976-d6147d46ee39",
+			"name": "iptables -t filter -X",
+			"description": "Borrar cualquier cadena creada por el usuario.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "dd3cf2ef-39f9-436e-8da7-d948b5822848",
+			"name": "iptables -t filter -A INPUT -p tcp –dport telnet -j ACCEPT",
+			"description": "Permitir las conexiones telnet para entar.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "f0349698-7947-4b8f-a01e-a81a77171cd1",
+			"name": "iptables -t filter -A OUTPUT -p tcp –dport http -j DROP",
+			"description": "Bloquear las conexiones HTTP para salir.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "3561310f-c440-47a0-9a58-846b1ae10e7c",
+			"name": "iptables -t filter -A FORWARD -p tcp –dport pop3 -j ACCEPT",
+			"description": "Permitir las conexiones POP a una cadena delantera.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "b511cafd-907b-47f4-a63b-8122388aad09",
+			"name": "iptables -t filter -A INPUT -j LOG –log-prefix “DROP INPUT”",
+			"description": "Registrando una cadena de entrada.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "f57ea82d-ab3c-45a2-902b-36c5dc452230",
+			"name": "iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE",
+			"description": "Configurar un PAT (Puerto de traducción de dirección) en eth0, ocultando los paquetes de salida forzada.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "2d2ad896-0b81-4d20-8762-508f832ec103",
+			"name": "iptables -t nat -A PREROUTING -d 192.168.0.1 -p tcp -m tcp –dport 22 -j DNAT –to-destination 10.0.0.2:22",
+			"description": "Redireccionar los paquetes diriguidos de un host a otro.",
+			"category": {
+				"uuid": "4514c4dc-87d0-492f-9304-12925bdcb298",
+				"name": "Salvas (Backup)",
+				"description": "Comandos para realizar copias de seguridad y restaurarlas.",
+				"svg": "hdd-network.svg"
+			}
+		},
+		{
+			"uuid": "cf5f8d8c-c413-4205-aa0e-31047e789705",
+			"name": "ifconfig eth0",
+			"description": "Mostrar la configuración de una tarjeta de red Ethernet.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "c965c284-ebb1-486d-90e3-b340e4cc84b5",
+			"name": "ifup eth0",
+			"description": "Activar una interface ‘eth0’.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "21d78271-62e8-4908-9df1-4261f353f688",
+			"name": "ifdown eth0",
+			"description": "Deshabilitar una interface ‘eth0’.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "afb61645-1876-453b-b3af-ed13d4bc3154",
+			"name": "ifconfig eth0 192.168.1.1 netmask 255.255.255.0",
+			"description": "Configurar una dirección IP.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "b689b845-5d19-43ab-aa2c-f524adde2b8c",
+			"name": "ifconfig eth0 promisc",
+			"description": "Configurar ‘eth0’en modo común para obtener los paquetes (sniffing).",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "a2247534-4184-4331-865f-8b0171a16d3a",
+			"name": "dhclient eth0",
+			"description": "Activar la interface ‘eth0’ en modo dhcp.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "7df58952-ed7a-4e2c-9310-d60567b3cbfb",
+			"name": "route -n",
+			"description": "Mostrar mesa de recorrido.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "ee5284ef-89db-495e-aa80-f198cef27963",
+			"name": "route add -net 0/0 gw IP_Gateway",
+			"description": "Configurar entrada predeterminada.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "84f1195f-7083-4db1-9c20-8dafb2a94798",
+			"name": "route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1",
+			"description": "Configurar ruta estática para buscar la red ‘192.168.0.0/16’.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "278114ae-34aa-4551-857f-929134510fe6",
+			"name": "route del 0/0 gw IP_gateway",
+			"description": "Eliminar la ruta estática.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "831300ad-eb0d-451d-81a4-b6e148c566e2",
+			"name": "echo “1” > /proc/sys/net/ipv4/ip_forward",
+			"description": "Activar el recorrido ip.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "55fdca52-0818-4038-9280-208ef30bfaa8",
+			"name": "hostname",
+			"description": "Mostrar el nombre del host del sistema.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "4f5fcfa1-9a55-432b-99e5-e39f93d28871",
+			"name": "host www.example.com",
+			"description": "Buscar el nombre del host para resolver el nombre a una dirección ip(1).",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "8b9be9f9-4e06-488b-8d04-bb6365926c78",
+			"name": "nslookup www.example.com",
+			"description": "Buscar el nombre del host para resolver el nombre a una direccióm ip y viceversa(2).",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "2702fc5c-6553-4954-9f5e-25683b3c6fa9",
+			"name": "ip link show",
+			"description": "Mostar el estado de enlace de todas las interfaces.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "036f6b1e-1899-424b-8adf-f0e81dc4ecec",
+			"name": "mii-tool eth0",
+			"description": "Mostar el estado de enlace de ‘eth0’.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "6a2ff07b-5d79-4b21-b64b-14303cbedd4c",
+			"name": "ethtool eth0",
+			"description": "Mostrar las estadísticas de tarjeta de red ‘eth0’.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "73ee0a11-b842-4af0-8769-dcf7d7827006",
+			"name": "netstat -tup",
+			"description": "Mostrar todas las conexiones de red activas y sus PID.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "82033ace-30eb-4a16-816b-2174feaec3b7",
+			"name": "netstat -tupl",
+			"description": "Mostrar todos los servicios de escucha de red en el sistema y sus PID.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "4f9ee8f9-1396-486a-b24b-336b10a05c75",
+			"name": "tcpdump tcp port 80",
+			"description": "Mostrar todo el tráfico HTTP.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "94a3e6f6-18a7-4282-a42c-a6b663fb17a0",
+			"name": "iwlist scan",
+			"description": "Mostrar las redes inalámbricas.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "a5fef51c-987d-410f-92c8-c6ad28c1a384",
+			"name": "iwconfig eth1",
+			"description": "Mostrar la configuración de una tarjeta de red inalámbrica.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "a15dc53a-68e3-4247-b31a-063f6e3d3d83",
+			"name": "whois www.example.com",
+			"description": "Buscar en base de datos Whois.",
+			"category": {
+				"uuid": "e324e25f-b1b7-4c53-89d1-1c5cfee983d3",
+				"name": "Tablas IP (CORTAFUEGOS)",
+				"description": "Gestiona reglas de firewall para controlar el tráfico de red.",
+				"svg": "modem.svg"
+			}
+		},
+		{
+			"uuid": "538f6c7a-fc4d-46ec-9945-fc1867c26592",
+			"name": "mkswap /dev/hda3",
+			"description": "Crear fichero de sistema swap.",
+			"category": {
+				"uuid": "85d20935-1834-4f46-988b-c07775c769cf",
+				"name": "Trabajo con la RED ( LAN y Wi-Fi)",
+				"description": "Configura y gestiona conexiones a redes locales e inalámbricas.",
+				"svg": "ethernet.svg"
+			}
+		},
+		{
+			"uuid": "8a3cbc7a-d2a7-474d-9e6c-8c292596c0cf",
+			"name": "swapon /dev/hda3",
+			"description": "Activando una nueva partición swap.",
+			"category": {
+				"uuid": "85d20935-1834-4f46-988b-c07775c769cf",
+				"name": "Trabajo con la RED ( LAN y Wi-Fi)",
+				"description": "Configura y gestiona conexiones a redes locales e inalámbricas.",
+				"svg": "ethernet.svg"
+			}
+		},
+		{
+			"uuid": "84c46912-da79-46e9-b95f-bc150fee37a1",
+			"name": "swapon /dev/hda2 /dev/hdb3",
+			"description": "Activar dos particiones swap.",
+			"category": {
+				"uuid": "85d20935-1834-4f46-988b-c07775c769cf",
+				"name": "Trabajo con la RED ( LAN y Wi-Fi)",
+				"description": "Configura y gestiona conexiones a redes locales e inalámbricas.",
+				"svg": "ethernet.svg"
+			}
+		},
+		{
+			"uuid": "dcef23f8-0ccf-435d-9f1d-4a68cef851ad",
+			"name": "groupadd nombre_del_grupo",
+			"description": "Crear un nuevo grupo.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "aac772d7-7682-4e16-b602-128cbd0e22b9",
+			"name": "groupdel nombre_del_grupo",
+			"description": "Borrar un grupo.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "05ed3aa0-2b86-4d4f-9791-b7f9966f7a3b",
+			"name": "groupmod -n nuevo_nombre_del_grupo viejo_nombre_del_grupo",
+			"description": "Renombrar un grupo.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "99eb869e-9efa-4bca-b39f-42deb997ded9",
+			"name": "useradd -c “Name Surname ” -g admin -d /home/user1 -s /bin/bash user1",
+			"description": "Crear un nuevo usuario perteneciente al grupo “admin”.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "637226d9-3128-4c19-811a-e6a3fa69a7b3",
+			"name": "useradd user1",
+			"description": "Crear un nuevo usuario.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "ec251f62-49dd-4c22-8992-d9e8541a1f12",
+			"name": "userdel -r user1",
+			"description": "Borrar un usuario (‘-r’ elimina el directorio Home).",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "1789693c-4694-48cc-83ca-fd5142d25077",
+			"name": "usermod -c “User FTP” -g system -d /ftp/user1 -s /bin/nologin user1",
+			"description": "Cambiar los atributos del usuario.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "2d87a6f1-83ea-4485-8f52-50c8c85fce8d",
+			"name": "passwd",
+			"description": "Cambiar contraseña.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "0362e03e-b75f-45eb-aaab-a0713e4e3a79",
+			"name": "passwd user1",
+			"description": "Cambiar la contraseña de un usuario (solamente por root).",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "ebe8aab1-0e6d-4a17-a72e-905ec166ca19",
+			"name": "chage -E 2011-12-31 user1",
+			"description": "Colocar un plazo para la contraseña del usuario. En este caso dice que la clave expira el 31 de diciembre de 2011.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "11ccf4d3-d974-4202-9c6d-91fc20d4af2a",
+			"name": "pwck",
+			"description": "Chequear la sintaxis correcta el formato de fichero de ‘/etc/passwd’ y la existencia de usuarios.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "a706b4ae-54ba-40d6-808a-84f427ea03af",
+			"name": "grpck",
+			"description": "Chequear la sintaxis correcta y el formato del fichero ‘/etc/group’ y la existencia de grupos.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "f11fcf0f-b538-4480-9228-42fbaa58a8a6",
+			"name": "newgrp group_name",
+			"description": "Registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente.",
+			"category": {
+				"uuid": "65078a6f-5c1f-4e55-9140-dff498fb7762",
+				"name": "Trabajo con la SWAP",
+				"description": "Gestiona la memoria de intercambio para optimizar el rendimiento.",
+				"svg": "memory.svg"
+			}
+		},
+		{
+			"uuid": "9833e87d-c43f-4e6d-900f-9df21d50b91e",
+			"name": "cat file1",
+			"description": "Ver los contenidos de un fichero comenzando desde la primera hilera.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "39ac8c71-7c8c-409b-9f08-50d74c90053e",
+			"name": "tac file1",
+			"description": "Ver los contenidos de un fichero comenzando desde la última línea.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "98811dfc-c696-4076-af80-44427f1e837c",
+			"name": "more file1",
+			"description": "Ver el contenido a lo largo de un fichero.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "71ccd0e4-b236-4b7a-b1b3-16faebc65e4a",
+			"name": "less file1",
+			"description": "Parecido al commando ‘more’ pero permite salvar el movimiento en el fichero así como el movimiento hacia atrás.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "dfc9f5f3-1c3f-48af-b46f-74b8bd2e1305",
+			"name": "head -2 file1",
+			"description": "Ver las dos primeras líneas de un fichero.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "7be5e034-537d-4b53-867d-cce764a11aa5",
+			"name": "tail -2 file1",
+			"description": "Ver las dos últimas líneas de un fichero.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		},
+		{
+			"uuid": "fb697ffb-c0f8-4af7-b0c3-16730c6d37f3",
+			"name": "tail -f /var/log/messages",
+			"description": "Ver en tiempo real qué ha sido añadido al fichero.",
+			"category": {
+				"uuid": "11bb1738-6b8c-4059-aeda-08d966c557e8",
+				"name": "Usuarios y Grupos",
+				"description": "Comandos para crear, modificar o eliminar cuentas de usuarios y grupos.",
+				"svg": "people.svg"
+			}
+		}
+	]
+}
